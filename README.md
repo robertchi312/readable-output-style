@@ -1,12 +1,12 @@
 # Readable
 
-A 200 word output style for Claude Code that makes replies **easier to read in full** and keeps **skimming safe**.
+A 200-word output style for Claude Code that makes replies **easier to read in full** and keeps **skimming safe**.
 
 An output style is a markdown file Claude Code appends to its system prompt, so its rules shape every reply in a session.
 
 ## Why I made it
 
-I kept skimming Claude's replies, and skimming made me miss details that came back later as gaps in my understanding of my own project. The style is built on one trade: **a response I actually read beats a more thorough response I skim.** It optimizes for the information that reaches the reader, not the amount that appears in the reply.
+The style is built on one trade: **a response I actually read beats a more thorough response I skim.** I kept skimming Claude's replies, and skimming made me miss details that came back later as gaps in my understanding of my own project. So this optimizes for the information that reaches the reader, not the amount that appears in the reply.
 
 ## Install
 
@@ -26,7 +26,7 @@ Then select it with `/config`, under "Output style". It takes effect in **new se
 
 **Bold the load-bearing words.** Reading only the bold should still deliver the true message.
 
-Each rule traces to a named source: BLUF from the US Army's correspondence standard, the plain language tradition, Grice's maxims, and web usability research on how people actually read. The full genealogy, the reason the file is only 200 words, and what `keep-coding-instructions` does are in **[DESIGN.md](DESIGN.md)**.
+Each rule traces to a named source: BLUF from the US Army's correspondence standard, the plain language tradition, Grice's maxims, and web usability research on how people actually read. Where each rule comes from, the reason the file is only 200 words, and what `keep-coding-instructions` does are in **[DESIGN.md](DESIGN.md)**.
 
 ## A note on this README
 

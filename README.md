@@ -10,7 +10,11 @@ I kept skimming Claude's replies, and skimming made me miss details that came ba
 
 ## Install
 
-Copy `readable.md` into **`~/.claude/output-styles/`**, then select it with `/config`, under "Output style". It takes effect in **new sessions**, not the one you are in.
+```bash
+mkdir -p ~/.claude/output-styles && curl -fsSL https://raw.githubusercontent.com/robertchi312/readable-output-style/master/readable.md -o ~/.claude/output-styles/readable.md
+```
+
+Then select it with `/config`, under "Output style". It takes effect in **new sessions**, not the one you are in.
 
 ## The four rules
 

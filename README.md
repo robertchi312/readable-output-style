@@ -14,7 +14,7 @@ The style is built on one trade: **a response I actually read beats a more thoro
 mkdir -p ~/.claude/output-styles && curl -fsSL https://raw.githubusercontent.com/robertchi312/readable-output-style/master/readable.md -o ~/.claude/output-styles/readable.md
 ```
 
-Then select it with `/config`, under "Output style". It takes effect in **new sessions**, not the one you are in.
+Then select it with `/config`, under "Output style". It takes effect when the system prompt is rebuilt: **a new session, `/clear`, or restarting**. It will not change mid-conversation.
 
 ## The four rules
 
